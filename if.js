@@ -1,11 +1,10 @@
-const idade = 19;
+const idade = 96;
 
-if (idade >= 18) {
+if (idade < 18) {
+    console.log("é menor de idade");
+} else if (idade <= 65) {
+    console.log("é adulto")
+} else {
+    console.log("é idoso")
 
-    console.log("é maior de idade");
 }
-else {
-    console.log("é menor de idade")
-}
-
-console.log("fim do codigo")

@@ -1,8 +1,13 @@
-const saldo = 10;
+const saldo = 0;
 
-if (saldo !=== 1) {
-    console.log(`Voce tem ${saldo} reais`)
+const unidade = (saldo === 1 ? "real" : "reais");
 
-} else {
-    console.log(`Voce tem ${saldo} real`)
-}
+console.log(`Voce tem ${saldo} ${unidade}`)
+
+
+//if (saldo !=== 1) {
+//    console.log(`Voce tem ${saldo} reais`)
+//
+//} else {
+//    console.log(`Voce tem ${saldo} real`)
+//}

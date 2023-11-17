@@ -1,4 +1,4 @@
-const idade = 96;
+const idade = 19;
 
 if (idade < 18) {
     console.log("é menor de idade");
